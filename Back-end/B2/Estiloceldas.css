@@ -1,0 +1,187 @@
+.contenedor-tabla{
+
+display:        table;
+width:           1600px;
+
+height:        50px;
+border:        1px solid #0a0a0a;
+background-color: #ffffff;
+vertical-align: middle;
+text-align: center;
+margin-right:     auto;
+margin-left:      auto;
+
+
+}
+
+.contenedor-fila{
+
+display: table-row;
+display: table;
+width:        1610px;
+
+height:        50px;
+border:        1px solid #0a0a0a;
+background-color: #ffffff;
+vertical-align: middle;
+text-align: center;
+margin-right:     3px;
+margin-left:      2px;
+margin-top:       2px;
+margin-bottom:    2px;
+
+}
+
+.contenedor-columna{
+
+display: table-cell;
+
+width:        320px;
+max-width:    960px;
+height:        50px;
+border:        1px solid #0a0a0a;
+background-color: #E3E4E5;
+vertical-align: middle;
+text-align: center;
+margin-right:     10px;
+margin-left:      1px;
+margin-top:       2px;
+margin-bottom:    2px;
+
+}
+.contenedor-cabecera{
+
+display: table-cell;
+width:        320px;
+max-width:    960px;
+height:        50px;
+border:        1px solid #0a0a0a;
+background-color: #85929E;
+vertical-align: middle;
+text-align: center;
+margin-right:     10px;
+margin-left:      1px;
+margin-top:       2px;
+margin-bottom:    2px;
+}
+.contenedor-id{
+
+display: table-cell;
+width:        100px;
+max-width:    960px;
+height:        50px;
+border:        1px solid #0a0a0a;
+background-color: #CCCCFF;
+vertical-align: middle;
+text-align: center;
+margin-right:     10px;
+margin-left:      1px;
+margin-top:       2px;
+margin-bottom:    2px;
+}
+.contenedor-iddatos{
+
+display: table-cell;
+width:        100px;
+max-width:    960px;
+height:        50px;
+border:        1px solid #0a0a0a;
+background-color: #E3E4E5;
+vertical-align: middle;
+text-align: center;
+margin-right:     10px;
+margin-left:      1px;
+margin-top:       2px;
+margin-bottom:    2px;
+}
+.contenedor-nombre{
+
+display: table-cell;
+width:        320px;
+max-width:    960px;
+height:        50px;
+border:        1px solid #0a0a0a;
+background-color: #ADDFAD;
+vertical-align: middle;
+text-align: center;
+margin-right:     10px;
+margin-left:      1px;
+margin-top:       2px;
+margin-bottom:    2px;
+}
+.contenedor-correo{
+
+display: table-cell;
+width:        320px;
+max-width:    960px;
+height:        50px;
+border:        1px solid #0a0a0a;
+background-color: #FFFDD0;
+vertical-align: middle;
+text-align: center;
+margin-right:     10px;
+margin-left:      1px;
+margin-top:       2px;
+margin-bottom:    2px;
+}
+.contenedor-rol{
+
+display: table-cell;
+width:        100px;
+max-width:    960px;
+height:        50px;
+border:        1px solid #0a0a0a;
+background-color: #FFCBDB;
+vertical-align: middle;
+text-align: center;
+margin-right:     10px;
+margin-left:      1px;
+margin-top:       2px;
+margin-bottom:    2px;
+}
+.contenedor-roldatos{
+
+    display: table-cell;
+    width:        100px;
+    max-width:    960px;
+    height:        50px;
+    border:        1px solid #0a0a0a;
+    background-color: #E3E4E5;
+    vertical-align: middle;
+    text-align: center;
+    margin-right:     10px;
+    margin-left:      1px;
+    margin-top:       2px;
+    margin-bottom:    2px;
+    }
+.contenedor-boton{
+
+display: table-cell;
+width:        100px;
+max-width:    960px;
+height:        50px;
+border:        1px solid #0a0a0a;
+background-color: #FAF0E6;
+vertical-align: middle;
+text-align: center;
+margin-right:     10px;
+margin-left:      1px;
+margin-top:       2px;
+margin-bottom:    2px;
+}
+.contenedor-botondatos{
+
+display: table-cell;
+width:        100px;
+max-width:    960px;
+height:        50px;
+border:        1px solid #0a0a0a;
+background-color: #E3E4E5;
+vertical-align: middle;
+text-align: center;
+margin-right:     10px;
+margin-left:      1px;
+margin-top:       2px;
+margin-bottom:    2px;
+}
+
