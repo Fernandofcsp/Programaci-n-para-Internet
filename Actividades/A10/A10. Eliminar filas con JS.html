@@ -1,0 +1,56 @@
+<html>
+
+	<head>
+		<title>A10. Eliminar filas con JS</title>
+        <script src="../jquery-3.3.1.min.js"></script>
+        <script>
+
+            function deleteRow(row){
+                var opcion = confirm("Estas Seguro?");
+                if (opcion == true) {
+                var d = row.parentNode.parentNode.rowIndex; //obtiene la posicion
+                document.getElementById("dsTable").deleteRow(d); //elimina la fila
+	            }  
+            }
+            
+        </script>
+       
+
+	</head>
+
+	<body>
+	<table id = "dsTable" border="1" width="960" height="800" align="center" valign="middle">
+		<tr height="50" align="center">
+			<td colspan="3">A10. Eliminar filas con JS</td>
+		</tr>
+		<tr height="200" align="center" valign="middle">
+			<td width="33.33%"> <a href = "https://inmanga.com/ver/manga/One-Piece/dfc7ecb5-e9b3-4aa5-a61b-a498993cd935" target = "_blank"><img src = "../Imagenes/Foto1.jpg" height="200" width="300"/> </a></td>
+			<td width="33.33%"> <a href = "https://inmanga.com/ver/manga/One-Piece/dfc7ecb5-e9b3-4aa5-a61b-a498993cd935" target ="_blank">One piece</a> </td>
+            <td width="33.33%"> <input type="button" id ="deleteDep" value="Eliminar" onclick = "deleteRow(this)"  </td>
+		</tr>
+		<tr height="200" align="center" valign="middle">
+			<td width="33.33%"> <a href = "https://inmanga.com/ver/manga/Tokyo-Ghoul/5b2d24eb-5de6-4fc7-a56a-fc6dd6510b7c" target = "_blank"><img src = "../Imagenes/Foto2.png" height="200" width="300"/></a> </td>
+			<td width="33.33%"> <a href = "https://inmanga.com/ver/manga/Tokyo-Ghoul/5b2d24eb-5de6-4fc7-a56a-fc6dd6510b7c" target ="_blank">Tokyo Ghoul</a> </td>
+            <td width="33.33%"> <input type="button" id ="deleteDep" value="Eliminar" onclick = "deleteRow(this)"  </td>
+		</tr>
+		<tr height="200" align="center" valign="middle">
+			<td width="33.33%"> <a href = "https://inmanga.com/ver/manga/Death-Note/aadd281d-2bb0-4049-b75e-5ebf92f69e66" target = "_blank"><img src = "../Imagenes/Foto3.jpg" height="200" width="300"/></a> </td>
+			<td width="33.33%"> <a href = "https://inmanga.com/ver/manga/Death-Note/aadd281d-2bb0-4049-b75e-5ebf92f69e66" target ="_blank">Death Note</a> </td>
+            <td width="33.33%"> <input type="button" id ="deleteDep" value="Eliminar" onclick = "deleteRow(this)"  </td>
+		</tr>
+		<tr height="200" align="center" valign="middle">
+			<td width="33.33%"> <a href = "https://inmanga.com/ver/manga/Boku-no-Hero-Academia/dda0c17a-83da-4ef6-8c65-4763e8fbe436" target = "_blank"><img src = "../Imagenes/Foto4.jpg" height="200" width="300"/></a> </td>
+			<td width="33.33%"> <a href = "https://inmanga.com/ver/manga/Boku-no-Hero-Academia/dda0c17a-83da-4ef6-8c65-4763e8fbe436" target ="_blank">Boku no hero</a> </td>
+            <td width="33.33%"> <input type="button" id ="deleteDep" value="Eliminar" onclick = "deleteRow(this)"  </td>
+		</tr>
+		<tr height="200" align="center" valign="middle">
+			<td width="33.33%"> <a href = "https://inmanga.com/ver/manga/Vigilante-Boku-no-Hero-Academia-Illegals/f8920957-88a7-40c1-bad0-9ed43a0484d5" target = "_blank"><img src = "../Imagenes/Foto5.jpg" height="200" width="300"/></a> </td>
+			<td width="33.33%"> <a href = "https://inmanga.com/ver/manga/Vigilante-Boku-no-Hero-Academia-Illegals/f8920957-88a7-40c1-bad0-9ed43a0484d5" target ="_blank">Boku no hero illegals</a> </td>
+            <td width="33.33%"> <input type="button" id ="deleteDep" value="Eliminar" onclick = "deleteRow(this)"  </td>
+
+		</tr>
+
+	</table>
+	</body>
+
+</html>

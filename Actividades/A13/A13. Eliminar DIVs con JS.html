@@ -1,0 +1,101 @@
+<html>
+
+	<head>
+		<title>A13. Eliminar DIVs con JS</title>
+        <script src="../jquery-3.3.1.min.js"></script>
+        <script>
+
+            function Eliminar(fila) {
+                if(confirm("¿Estas seguro?"))
+                fila = document.getElementById(fila);
+                $(fila).hide();
+            }
+            
+        </script>
+        <style>
+            .contenedor-tabla{
+
+            display:        table;
+            width:           950px;
+            max-width:      960px;
+            height:        50px;
+            border:        1px solid #0a0a0a;
+            background-color: #ffffff;
+            margin-right:     auto;
+            margin-left:      auto;
+            
+
+            }
+
+            .contenedor-fila{
+
+            display: table-row;
+            display: table;
+            width:        960px;
+            max-width:    960px;
+            height:        50px;
+            border:        1px solid #0a0a0a;
+            background-color: #ffffff;
+            margin-right:     3px;
+            margin-left:      2px;
+            margin-top:       2px;
+            margin-bottom:    2px;
+
+            }
+
+            .contenedor-columna{
+
+            display: table-cell;
+            
+            width:        320px;
+            max-width:    960px;
+            height:        50px;
+            border:        1px solid #0a0a0a;
+            background-color: #ffffff;
+            margin-right:     10px;
+            margin-left:      1px;
+            margin-top:       2px;
+            margin-bottom:    2px;
+
+            }
+        </style>
+       
+
+	</head>
+
+	<body>
+        <div class=contenedor-tabla id = "dsTable" border="1" width="960" height="800" align="center" valign="middle">
+        <div class=contenedor-fila height="50" align="center">
+			<div class=contenedor-columna colspan="3">A13. Eliminar DIVs con JS</div>
+		</div>
+		<div class=contenedor-fila id="fila1" height="200" align="center" valign="middle">
+			<div class=contenedor-columna width="33.33%"> <a href = "https://inmanga.com/ver/manga/One-Piece/dfc7ecb5-e9b3-4aa5-a61b-a498993cd935" target = "_blank"><img src = "../Imagenes/Foto1.jpg" height="200" width="300"/> </a></div>
+			<div class=contenedor-columna width="33.33%"> <a href = "https://inmanga.com/ver/manga/One-Piece/dfc7ecb5-e9b3-4aa5-a61b-a498993cd935" target ="_blank">One piece</a> </div>
+            <div class=contenedor-columna width="33.33%"> <input type="button" id ="deleteDep" value="Eliminar" onclick = "Eliminar('fila1')"  ></div>
+        </div>
+		<div class=contenedor-fila id="fila2" height="200" align="center" valign="middle">
+			<div class=contenedor-columna width="33.33%"> <a href = "https://inmanga.com/ver/manga/Tokyo-Ghoul/5b2d24eb-5de6-4fc7-a56a-fc6dd6510b7c" target = "_blank"><img src = "../Imagenes/Foto2.png" height="200" width="300"/></a> </div>
+			<div class=contenedor-columna width="33.33%"> <a href = "https://inmanga.com/ver/manga/Tokyo-Ghoul/5b2d24eb-5de6-4fc7-a56a-fc6dd6510b7c" target ="_blank">Tokyo Ghoul</a> </div>
+            <div class=contenedor-columna width="33.33%"> <input type="button" id ="deleteDep" value="Eliminar" onclick = "Eliminar('fila2')"  ></div>
+        </div>
+		<div class=contenedor-fila id="fila3" height="200" align="center" valign="middle">
+			<div class=contenedor-columna width="33.33%"> <a href = "https://inmanga.com/ver/manga/Death-Note/aadd281d-2bb0-4049-b75e-5ebf92f69e66" target = "_blank"><img src = "../Imagenes/Foto3.jpg" height="200" width="300"/></a> </div>
+			<div class=contenedor-columna width="33.33%"> <a href = "https://inmanga.com/ver/manga/Death-Note/aadd281d-2bb0-4049-b75e-5ebf92f69e66" target ="_blank">Death Note</a> </div>
+            <div class=contenedor-columna width="33.33%"> <input type="button" id ="deleteDep" value="Eliminar" onclick = "Eliminar('fila3')"  ></div>
+        </div>
+		<div class=contenedor-fila id="fila4" height="200" align="center" valign="middle">
+			<div class=contenedor-columna width="33.33%"> <a href = "https://inmanga.com/ver/manga/Boku-no-Hero-Academia/dda0c17a-83da-4ef6-8c65-4763e8fbe436" target = "_blank"><img src = "../Imagenes/Foto4.jpg" height="200" width="300"/></a> </div>
+			<div class=contenedor-columna width="33.33%"> <a href = "https://inmanga.com/ver/manga/Boku-no-Hero-Academia/dda0c17a-83da-4ef6-8c65-4763e8fbe436" target ="_blank">Boku no hero</a> </div>
+            <div class=contenedor-columna width="33.33%"> <input type="button" id ="deleteDep" value="Eliminar" onclick = "Eliminar('fila4')"  ></div>
+        </div>
+		<div class=contenedor-fila id="fila5" height="200" align="center" valign="middle">
+			<div class=contenedor-columna width="33.33%"> <a href = "https://inmanga.com/ver/manga/Vigilante-Boku-no-Hero-Academia-Illegals/f8920957-88a7-40c1-bad0-9ed43a0484d5" target = "_blank"><img src = "../Imagenes/Foto5.jpg" height="200" width="300"/></a> </div>
+			<div class=contenedor-columna width="33.33%"> <a href = "https://inmanga.com/ver/manga/Vigilante-Boku-no-Hero-Academia-Illegals/f8920957-88a7-40c1-bad0-9ed43a0484d5" target ="_blank">Boku no hero illegals</a> </div>
+            <div class=contenedor-columna width="33.33%"> <input type="button" id ="deleteDep" value="Eliminar" onclick = "Eliminar('fila5')"  ></div>
+
+        </div>
+
+	</div>
+	</body>
+
+</html>
